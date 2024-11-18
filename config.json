@@ -1,0 +1,11 @@
+[
+  {"attack": "fgsm", "eps": 2.55, "bb": true, "alpha": 2, "attack_mode": "bptt"},
+  {"attack": "fgsm", "eps": 2.55, "bb": true, "alpha": 4, "attack_mode": "bptt"},
+  {"attack": "fgsm", "eps": 2.55, "bb": true, "alpha": 6, "attack_mode": "bptt"},
+  {"attack": "fgsm", "eps": 2.55, "bb": true, "alpha": 2, "attack_mode": "bptr_old"},
+  {"attack": "fgsm", "eps": 2.55, "bb": true, "alpha": 4, "attack_mode": "bptr_old"},
+  {"attack": "fgsm", "eps": 2.55, "bb": true, "alpha": 6, "attack_mode": "bptr_old"},
+  {"attack": "fgsm", "eps": 2.55, "bb": true, "alpha": 2, "attack_mode": "bptr_new"},
+  {"attack": "fgsm", "eps": 2.55, "bb": true, "alpha": 4, "attack_mode": "bptr_new"},
+  {"attack": "fgsm", "eps": 2.55, "bb": true, "alpha": 6, "attack_mode": "bptr_new"}
+]

@@ -1,0 +1,7 @@
+[
+  {"attack": "pgd", "eps": 2.55, "bb": true, "alpha": 2, "steps":10, "attack_mode": "bptt"},
+  {"attack": "pgd", "eps": 2.55, "bb": true, "alpha": 2, "steps":10, "attack_mode": "bptr_old"},
+  {"attack": "pgd", "eps": 2.55, "bb": true, "alpha": 2, "steps":10, "attack_mode": "mbptr_old"},
+  {"attack": "pgd", "eps": 2.55, "bb": true, "alpha": 2, "steps":10, "attack_mode": "bptr_new"},
+  {"attack": "pgd", "eps": 2.55, "bb": true, "alpha": 2, "steps":10, "attack_mode": "mbptr_new"}
+]
