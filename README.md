@@ -1,6 +1,6 @@
 # AE-Patch
 Official Pytorch implementation for paper "Adversarial Event Patch for Spiking Neural Networks".
-![Figure](https://github.com/yszbb/AE-Patch/blob/main/assert/pipeline.jpg)
+![Figure](https://github.com/yszbb/AE-Patch/blob/main/asserts/pipeline.jpg)
 ## Requirements
 - python 3.8
 - Pytorch 1.10
