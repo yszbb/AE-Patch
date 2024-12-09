@@ -1,9 +1,15 @@
+import argparse
 import os
 # patch 攻击 模型在clamp的数据集上训练的，patch也是在clamp数据集上训练的  T=20
 # 为每一个目标类设置的定向攻击
 if __name__ == "__main__":
-    data_dvs = "dvscifar"
-    arch = "vggdvs"
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--arch', default="vggdvs")
+    parser.add_argument('--data_dvs', default="dvscifar")
+    args = parser.parse_args()
+
+    data_dvs = args.data_dvs
+    arch = args.arch
     # data_dvs = "dvsgesture"
     # arch = "lenet5_simple"
     if data_dvs == "dvscifar":
