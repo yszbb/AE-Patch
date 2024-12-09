@@ -25,4 +25,3 @@ Once you have setup your path, you can run an experiment like so:
 ```
 python patch_untargeted_everyone.py --arch "vggdvs" --datadvs "dvscifar" 
 ```
-The terminal will print the gbest_position and gbest_value.
