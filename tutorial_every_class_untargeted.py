@@ -87,7 +87,7 @@ def main():
         train_dataset, val_dataset, znorm = data_loaders.build_dvscifar_patch(root='data_dvs/CIFAR10DVS', frames_number=T)
     elif 'nmnist' in dataset.lower():
         train_dataset, val_dataset, znorm = data_loaders.build_nmnist(
-            root='E:\\data_set\\data_dvs\\NMNIST', frame_number=T)
+            root='data_dvs/NMNIST', frame_number=T)
     else:
         raise AssertionError("data_dvs not supported")
 
