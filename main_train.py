@@ -81,14 +81,12 @@ def main():
     seed_all(args.seed)
 
     if 'dvsgesture' in args.dataset.lower():
-        train_dataset, val_dataset, znorm = data_loaders.build_dvsgesture(root='E:\\data_set\\data_dvs'
-                                                                               '\\DVSGesture', frames_number=args.time)
+        train_dataset, val_dataset, znorm = data_loaders.build_dvsgesture(root='data_dvs/DVSGesture', frames_number=args.time)
     elif 'dvscifar' in args.dataset.lower():
-        train_dataset, val_dataset, znorm = data_loaders.build_dvscifar(root='E:\\data_set\\data_dvs'
-                                                                             '\\CIFAR10DVS', frames_number=args.time)
+        train_dataset, val_dataset, znorm = data_loaders.build_dvscifar(root='data_dvs/CIFAR10DVS', frames_number=args.time)
     elif 'nmnist' in args.dataset.lower():
         train_dataset, val_dataset, znorm = data_loaders.build_nmnist(
-            root='E:\\data_set\\data_dvs\\NMNIST', frame_number=args.time)
+            root='data_dvs/NMNIST', frame_number=args.time)
     else:
         raise AssertionError("data_dvs not supported")
 
