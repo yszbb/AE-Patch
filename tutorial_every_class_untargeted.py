@@ -82,11 +82,9 @@ def main():
     # seed_all(seed)
 
     if 'dvsgesture' in dataset.lower():
-        train_dataset, val_dataset, znorm = data_loaders.build_dvsgesture(root='E:\\data_set\\data_dvs'
-                                                                               '\\DVSGesture', frames_number=T)
+        train_dataset, val_dataset, znorm = data_loaders.build_dvsgesture(root='data_dvs/DVSGesture', frames_number=T)
     elif 'dvscifar' in dataset.lower():
-        train_dataset, val_dataset, znorm = data_loaders.build_dvscifar_patch(root='E:\\data_set\\data_dvs'
-                                                                                   '\\CIFAR10DVS', frames_number=T)
+        train_dataset, val_dataset, znorm = data_loaders.build_dvscifar_patch(root='data_dvs/CIFAR10DVS', frames_number=T)
     elif 'nmnist' in dataset.lower():
         train_dataset, val_dataset, znorm = data_loaders.build_nmnist(
             root='E:\\data_set\\data_dvs\\NMNIST', frame_number=T)
