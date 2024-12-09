@@ -3,12 +3,12 @@ Official Pytorch implementation for paper "Adversarial Event Patch for Spiking N
 ![Figure](https://github.com/yszbb/AE-Patch/blob/main/asserts/pipeline.jpg)
 ## Requirements
 - python 3.8
-- Pytorch 1.10
+- Pytorch 1.13
 - At least 1x12GB NVIDIA GPU
 ## Installation
 ```
 git clone https://github.com/yszbb/AE-Patch
-cd HOTCOLDBlock-main
+cd AE-Patch
 pip install -r requirements.txt
 ```
 ## Preparation
